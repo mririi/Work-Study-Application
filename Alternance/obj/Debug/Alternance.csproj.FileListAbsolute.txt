@@ -1,0 +1,15 @@
+C:\Users\Wassim\source\repos\Alternance\Alternance\bin\Debug\Alternance.exe.config
+C:\Users\Wassim\source\repos\Alternance\Alternance\bin\Debug\Alternance.exe
+C:\Users\Wassim\source\repos\Alternance\Alternance\bin\Debug\Alternance.pdb
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.csproj.AssemblyReference.cache
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.csproj.SuggestedBindingRedirects.cache
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.Login.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.Properties.Resources.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.RegisterEntreprise.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.RegisterEtudiant.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.RegisterUniversite.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.csproj.GenerateResource.cache
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.csproj.CoreCompileInputs.cache
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.exe
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.pdb
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.AccUniversite.resources
