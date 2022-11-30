@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Alternance
 {
-    public partial class Offres : Form
+    public partial class OffresEtudiant : Form
     {
         SqlConnection con = new SqlConnection("Data Source=.\\sqlexpress;Initial Catalog=Alternance;Integrated Security=True");
         public string user { get; set; }
-        public Offres()
+        public OffresEtudiant()
         {
             InitializeComponent();
             CenterToScreen();

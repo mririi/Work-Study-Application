@@ -18,12 +18,13 @@ namespace Alternance
         public PartenairesEntreprise()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void PartenairesEntreprise_Load(object sender, EventArgs e)
         {
             con.Open();
-            string Query = "SELECT email from [User] u,[candidature] c,[Offre] o where o.ID=c.IDOffre and o.IDUser=u.ID and c.accepte='1' and u.IDUni is not null ";
+            string Query = "SELECT Distinct email as Email_Universite,adresse as Adresse_Universite from [User] u,[candidature] c,[Offre] o,[universite] uni where uni.ID=u.IDUni and o.ID=c.IDOffre and o.IDUser=u.ID and c.accepte='1' and u.IDUni is not null ";
             SqlDataAdapter sd = new SqlDataAdapter(Query, con);
             SqlCommandBuilder cmd = new SqlCommandBuilder(sd);
             var ds = new DataSet();

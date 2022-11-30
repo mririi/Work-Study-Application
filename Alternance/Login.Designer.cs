@@ -93,6 +93,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Cyan;
             this.linkLabel1.Location = new System.Drawing.Point(64, 224);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(55, 16);
@@ -105,6 +106,7 @@
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel2.LinkColor = System.Drawing.Color.Cyan;
             this.linkLabel2.Location = new System.Drawing.Point(154, 224);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(68, 16);
@@ -117,6 +119,7 @@
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel3.LinkColor = System.Drawing.Color.Cyan;
             this.linkLabel3.Location = new System.Drawing.Point(253, 224);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(67, 16);

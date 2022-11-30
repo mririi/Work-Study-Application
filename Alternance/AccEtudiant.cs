@@ -26,7 +26,7 @@ namespace Alternance
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Offres screen = new Offres();
+            OffresEtudiant screen = new OffresEtudiant();
             screen.user = user;
             screen.Show();
         }

@@ -64,12 +64,6 @@
     <Compile Include="AcceuilEntreprise.Designer.cs">
       <DependentUpon>AcceuilEntreprise.cs</DependentUpon>
     </Compile>
-    <Compile Include="AcceuilEtudiant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AcceuilEtudiant.Designer.cs">
-      <DependentUpon>AcceuilEtudiant.cs</DependentUpon>
-    </Compile>
     <Compile Include="OffresUniversite.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,11 +94,11 @@
     <Compile Include="MesCandidatures.Designer.cs">
       <DependentUpon>MesCandidatures.cs</DependentUpon>
     </Compile>
-    <Compile Include="Offres.cs">
+    <Compile Include="OffresEtudiant.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Offres.Designer.cs">
-      <DependentUpon>Offres.cs</DependentUpon>
+    <Compile Include="OffresEtudiant.Designer.cs">
+      <DependentUpon>OffresEtudiant.cs</DependentUpon>
     </Compile>
     <Compile Include="PartenairesEntreprise.cs">
       <SubType>Form</SubType>
@@ -147,9 +141,6 @@
     <EmbeddedResource Include="AcceuilEntreprise.resx">
       <DependentUpon>AcceuilEntreprise.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AcceuilEtudiant.resx">
-      <DependentUpon>AcceuilEtudiant.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AccUniversite.resx">
       <DependentUpon>AccUniversite.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,8 +153,8 @@
     <EmbeddedResource Include="MesCandidatures.resx">
       <DependentUpon>MesCandidatures.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Offres.resx">
-      <DependentUpon>Offres.cs</DependentUpon>
+    <EmbeddedResource Include="OffresEtudiant.resx">
+      <DependentUpon>OffresEtudiant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OffresUniversite.resx">
       <DependentUpon>OffresUniversite.cs</DependentUpon>

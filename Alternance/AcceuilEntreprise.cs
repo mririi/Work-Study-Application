@@ -18,6 +18,7 @@ namespace Alternance
         public AcceuilEntreprise()
         {
             InitializeComponent();
+            CenterToScreen();
         }
         private void OnButtonClick(object sender, EventArgs e)
         {
