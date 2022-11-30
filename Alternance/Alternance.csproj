@@ -58,17 +58,65 @@
     <Compile Include="AccEtudiant.Designer.cs">
       <DependentUpon>AccEtudiant.cs</DependentUpon>
     </Compile>
+    <Compile Include="AcceuilEntreprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcceuilEntreprise.Designer.cs">
+      <DependentUpon>AcceuilEntreprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AcceuilEtudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcceuilEtudiant.Designer.cs">
+      <DependentUpon>AcceuilEtudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OffresUniversite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OffresUniversite.Designer.cs">
+      <DependentUpon>OffresUniversite.cs</DependentUpon>
+    </Compile>
     <Compile Include="AccUniversite.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AccUniversite.Designer.cs">
       <DependentUpon>AccUniversite.cs</DependentUpon>
     </Compile>
+    <Compile Include="CandidateUniversite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateUniversite.Designer.cs">
+      <DependentUpon>CandidateUniversite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MesCandidatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MesCandidatures.Designer.cs">
+      <DependentUpon>MesCandidatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Offres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Offres.Designer.cs">
+      <DependentUpon>Offres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartenairesEntreprise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartenairesEntreprise.Designer.cs">
+      <DependentUpon>PartenairesEntreprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartenaireUniversite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartenaireUniversite.Designer.cs">
+      <DependentUpon>PartenaireUniversite.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,11 +138,41 @@
     <Compile Include="RegisterUniversite.Designer.cs">
       <DependentUpon>RegisterUniversite.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AccEntreprise.resx">
+      <DependentUpon>AccEntreprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccEtudiant.resx">
+      <DependentUpon>AccEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcceuilEntreprise.resx">
+      <DependentUpon>AcceuilEntreprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcceuilEtudiant.resx">
+      <DependentUpon>AcceuilEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AccUniversite.resx">
       <DependentUpon>AccUniversite.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CandidateUniversite.resx">
+      <DependentUpon>CandidateUniversite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MesCandidatures.resx">
+      <DependentUpon>MesCandidatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Offres.resx">
+      <DependentUpon>Offres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OffresUniversite.resx">
+      <DependentUpon>OffresUniversite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartenairesEntreprise.resx">
+      <DependentUpon>PartenairesEntreprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartenaireUniversite.resx">
+      <DependentUpon>PartenaireUniversite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

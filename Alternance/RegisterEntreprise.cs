@@ -18,6 +18,7 @@ namespace Alternance
         public RegisterEntreprise()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void RegisterEntreprise_Load(object sender, EventArgs e)

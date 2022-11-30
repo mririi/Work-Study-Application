@@ -18,6 +18,7 @@ namespace Alternance
         public Login()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -34,29 +35,29 @@ namespace Alternance
             }
             try
             {
-                SqlDataAdapter cmd = new SqlDataAdapter("select * from [User] where email = '" + email.Text + "' and password= '" + mdp.Text + "'", con);
+                SqlDataAdapter cmd = new SqlDataAdapter("select ID,IDEtudiant,IDEntreprise,IDUni from [User] where email = '" + email.Text + "' and password= '" + mdp.Text + "'", con);
                 DataTable dtable = new DataTable();
                 cmd.Fill(dtable);
                 if (dtable.Rows.Count > 0)
                 {
-                    if (dtable.Rows[0][5].ToString()!=null)
+                    if (dtable.Rows[0][1].ToString()!="")
                     {
                         AccEtudiant screen = new AccEtudiant();
-                        //screen.user = dtable.Rows[0][0].ToString();
+                        screen.user = dtable.Rows[0][0].ToString();
                         screen.Show();
                         this.Hide();
                     }
-                    else if (dtable.Rows[0][6].ToString() != null)
+                    else if (dtable.Rows[0][2].ToString() != "")
                     {
                         AccEntreprise screen = new AccEntreprise();
-                        //screen.user = dtable.Rows[0][0].ToString();
+                        screen.user = dtable.Rows[0][0].ToString();
                         screen.Show();
                         this.Hide();
                     }
-                    else if (dtable.Rows[0][7].ToString() != null)
+                    else if (dtable.Rows[0][3].ToString() != "")
                     {
                         AccUniversite screen = new AccUniversite();
-                        //screen.user = dtable.Rows[0][0].ToString();
+                        screen.user = dtable.Rows[0][0].ToString();
                         screen.Show();
                         this.Hide();
 

@@ -18,6 +18,7 @@ namespace Alternance
         public RegisterUniversite()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void RegisterUniversite_Load(object sender, EventArgs e)

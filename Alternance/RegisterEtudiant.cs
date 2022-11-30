@@ -19,6 +19,7 @@ namespace Alternance
         public RegisterEtudiant()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void Register_Click(object sender, EventArgs e)

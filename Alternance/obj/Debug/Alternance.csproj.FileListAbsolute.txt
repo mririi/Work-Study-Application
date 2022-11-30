@@ -13,3 +13,13 @@ C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.csproj.C
 C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.exe
 C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.pdb
 C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.AccUniversite.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.AccEntreprise.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.AccEtudiant.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.AcceuilEntreprise.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.AcceuilEtudiant.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.CandidateUniversite.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.MesCandidatures.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.Offres.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.OffresUniversite.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.PartenairesEntreprise.resources
+C:\Users\Wassim\source\repos\Alternance\Alternance\obj\Debug\Alternance.PartenaireUniversite.resources
